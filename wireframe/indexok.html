@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOM + PRENOM - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header avec la navigation -->
+    <header>
+        <div class="logo">NOM + PRENOM</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Hero principale -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Je suis <span class="highlight">Prénom</span>, Développeur en devenir passionné par le web et le design !</h1>
+            <a href="#projects" class="btn">Voir mes projets</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-illustration.svg" alt="Illustration développeur web">
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <h2 class="section-title">À propos</h2>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <p>Je m'appelle <span class="highlight">[nom]</span>, passionné par la création de sites web modernes et interactifs</p>
+                <p>Je suis actuellement étudiant(e) en <span class="highlight">développement web</span>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                <a href="#" class="btn">Télécharger mon CV</a>
+            </div>
+            <div class="about-image">
+                <img src="images/profile.jpg" alt="Ma photo de profil">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Mes Projets</h2>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Un mini-jeu interactif en JavaScript qui utilise des événements DOM</h3>
+                    <div class="project-tags">
+                        <span class="tag">#html</span>
+                        <span class="tag">#css</span>
+                        <span class="tag">#js</span>
+                    </div>
+                    <a href="#" class="btn small">Voir</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Un mini-jeu interactif en JavaScript qui utilise des événements DOM</h3>
+                    <div class="project-tags">
+                        <span class="tag">#html</span>
+                        <span class="tag">#css</span>
+                        <span class="tag">#js</span>
+                    </div>
+                    <a href="#" class="btn small">Voir</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Un mini-jeu interactif en JavaScript qui utilise des événements DOM</h3>
+                    <div class="project-tags">
+                        <span class="tag">#html</span>
+                        <span class="tag">#css</span>
+                        <span class="tag">#js</span>
+                    </div>
+                    <a href="#" class="btn small">Voir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Mes Compétences</h2>
+        
+        <div class="skills-container">
+            <div class="skills-column">
+                <h3>Soft Skills</h3>
+                
+                <div class="skill-item">
+                    <p>Gestion de projet</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <p>Résolution de problème</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <p>Adaptabilité</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3>Hard Skills</h3>
+                
+                <div class="skill-item">
+                    <p>HTML</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <p>CSS</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <p>JavaScript</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <p>VS Code</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2>Vous avez un <span class="highlight">projet en tête</span> ?</h2>
+        <p>N'hésitez pas à me <span class="highlight">contacter</span></p>
+        
+        <form id="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstname">Votre prénom</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastname">Votre nom</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Votre sujet</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message" class="sr-only">Votre message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Designed by <a href="#" class="highlight">[votre prénom]</a> with HTML CSS JS</p>
+        <p>Tous droits réservés - 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
