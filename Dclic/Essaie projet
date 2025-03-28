@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification de l'âge, pair ou impair et nom du mois</title>
+   
+</head>
+<body>
+    <P>Exercice 1.a: Vérification de l'âge</p>
+    <button onclick="verifierAge()">Vérifier votre âge</button>
+</body>

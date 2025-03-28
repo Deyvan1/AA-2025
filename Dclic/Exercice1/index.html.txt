@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="fr"
+<head>
+<meta charset="utf-8">
+<title>Titre de ma page</title>
+</head>
+<body>
+<a href="mailto:augustinandy0@gmail.com"> Envoyer un courriel à formation@auf.org</a>
+<a href="mailto:isteah.aaugustin@gmail.com"> Adresser un mail à isteah.aaugustin@gmail.com</a>
+</body>

@@ -1,0 +1,155 @@
+
+html {
+  background-color: #00545F;
+  
+}
+
+button {
+  font-size: 10px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 1200px;
+  height: 110px;
+  margin: 0 auto;
+  background-color: black;
+  padding: ;
+  border: 2px solid black
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 40px;
+	right: 150px;
+  display: ;
+  margin: 
+}
+ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+
+
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p{
+  font-size: 28px ;
+  line-height: 5;
+  letter-spacing: 1px;
+  font-style: calibri;
+
+}
+
+
+
+html {
+  background-color: white
+}
+
+body {
+  width: 1500px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+}
+
+.area{
+	 height: 500px;
+  margin: 0;
+  padding: ;
+  color: #00539F;
+  background-color:;
+  text-align: left
+}
+
+.area2{
+  margin: 0;
+  padding: ;
+  color: #00539F;
+  background-color: gray;
+  text-shadow: ;
+}
+.area3{
+  margin: 0;
+  padding: ;
+  color: #00539F;
+  background-color: black;
+  text-shadow: ;
+}
+.apropos {
+	 height: 500px;
+  margin: 0;
+  padding: ;
+  color: #00539F;
+  background-color: gray;
+  text: black;
+}
+.AA  {
+	background-color:;
+  text-align: left
+  }
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: ;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+	display:flex;/*Aligne les éléments en ligne*/
+	justify-content: space-around; /*Espacement entre les zones*/
+	gap: 0px; /* Espace entre les blocs*/
+	align: center
+	}
+	
+.box{
+	width: 20%;
+	padding: 20px;
+	text-align: center
+}
+textarea, form {
+	label-position: above;
+	margin-top:20px;
+	align: center;
+	border-radius: 15px}
+
+h2 {
+  margin: 0;
+  font-size: 15px;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: ;
+  text-align: center
+}
+li {
+	display: inline;
+	font-size: 10px;
+	color: white;
+	gap: 20px;
+	font-size: 10px;
+}

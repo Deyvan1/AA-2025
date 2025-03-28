@@ -1,0 +1,97 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: white;
+}
+
+
+html {
+  background-color: gray;
+  
+body  {
+  width: 700px;
+  margin: 0 auto;
+  background-color: ;
+  padding: 50px 20px 20px 20px;
+  border: 5px solid black;
+}
+
+form {
+	color: white;
+	spacing: 5px;
+	}
+
+body {
+  width: 400px;
+  margin: 0 auto;
+  background-color: ;
+  padding: 0px 20px 20px 20px;
+  border: 1px ;
+}
+h1 {
+  margin: 0;
+  font-size: 16px;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: ;
+  
+}
+
+h2 {
+  margin: 0;
+  font-size: 15px;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: ;
+  text-align: center
+}
+
+h3 {
+  margin: 0;
+  padding: 20px 0;
+  color: white;
+  background: blue;
+  text-align: center;
+  text-shadow: ;
+  font-size: 20px;
+ 
+  
+}
+
+textarea, form {
+	label-position: above;
+	margin-top:20px;
+	border-radius: 10px}
+	
+img {
+  display: block;
+  margin: 0 auto;
+}
+.container {
+	display:flex;/*Aligne les éléments en ligne*/
+	justify-content: space-around; /*Espacement entre les zones*/
+	gap: 0px; /* Espace entre les blocs*/
+	align: center
+	}
+	
+.box{
+	width: 20%;
+	padding: 20px;
+	text-align: center
+}
+	
+	form{
+		margin:
+		}

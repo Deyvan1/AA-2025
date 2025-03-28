@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essaie Projet de Andy A</title>
+   
+</head>
+<body>
+<form method="get" action="">
+<input type="text" name="AUGUSTIN Andy">
+</form>
+<form method="get" action="">
+<label for="nom">Votre nom</label> : <input type="text"
+name="nom" id="nom" >
+</form>
+<form method="get" action="">
+<p>
+<label for="nom">Votre nom :</label>
+<input type="text" name="nom" id="nom" placeholder="Ecrivez
+votre nom" size="20" maxlength="10">
+</p>
+</form>
+<label for="description">Description : </label> <br>
+<textarea rows="4" cols="50">
+C'est ici que vous pouvez saisir du texte sur plusieurs lignes.
+</textarea>
+
+<input type="button" value="Cliquer ici" />
+    <P>Exercice 1.a: Vérification de l'âge</p>
+    <button onclick="verifierAge()">Vérifier votre âge</button>
+	
+<input type="radio"
+id="option1"
+name="options"
+value="option1"
+checked>
+<label for="option1">Option 1</label>
+<input type="radio"
+id="option2"
+name="options"
+value="option2">
+<label for="option2">Option 2</label>
+
+<label for="volume">Volume :</label>
+<input type="range"
+id="volume"
+name="volume"
+min="0"
+max="100"
+value="50">
+
+
+<label for="birthdate">Date de naissance :</label>
+<input type="date"
+id="birthdate"
+name="birthdate"
+min="1900-01-01"
+max="2023-08-25"
+value="2000-01-01">
+
+
+</body>
+
+<label for="birthdate">Date de naissance :</label>
+<input type="date"
+id="birthdate"
+name="birthdate"
+min="1900-01-01"
+max="2023-08-25"
+value="2000-01-01">
+
+<label for="website">Site Web :</label>
+<input type="url"
+id="website"
+name="website"
+placeholder="https://www.example.com"
+required>
+
+<body>
+<select id="cars" name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="mercedes">Mercedes</option>
+<option value="audi">Audi</option>
+</select>
+
+<button onclick="afficherMessage();">Cliquez-moi</button>
+<script>
+function afficherMessage() {
+alert("Bouton cliqué !");
+}
+</script>
+</body>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exemple d'événement input</title>
+</head>
+<body>
+<form name="myForm">
+<input type="text" name="message" placeholder="Entrez un
+message" oninput="afficherSaisie();">
+</form>
+<script>
+function afficherSaisie() {
+const message = document.myForm.message.value;
+alert(`Saisie en cours : ${message}`);
+}
+</script>
+</body>
+</html>
+
+<script>
+{
+// anchor("nom_a_donner")
+const linkText = "Cliquez ici";
+const link = linkText.anchor("https://www.example.com");
+console.log(link); // <a name="https://www.example.com">Cliquez ici</a>
+}
+</script>
+
+<script>
+// bold()
+const text = "Texte en gras";
+const boldText = text.bold();
+console.log(boldText); // <strong>Texte en gras</strong>
+</script>
+
+<html>
+const noms = ["Alice", "Bob", "Charlie", "David", "Emma"];
+noms.forEach(function(nom) {
+console.log("Bonjour, " + nom + " !");
+});
+/* Résultats
+Bonjour, Alice !
+Bonjour, Bob !
+Bonjour, Charlie !
+Bonjour, David !
+Bonjour, Emma !
+*/
+<script>
+// bold()
+const text = "Texte en gras";
+const boldText = text.bold();
+console.log(boldText); // <strong>Texte en gras</strong>
+</script>
+</html>
+
+vous cliquez sur le bouton, il affichera les informations saisies dans ces champs dans une boîte de
+dialogue "alert" :
+<!DOCTYPE html>
+<html>
+<head>
+<p>Exemple avec différents types d'entrées</p>
+</head>
+<body>
+<form name="monFormulaire">
+<input type="number" name="age" placeholder="Âge">
+<br>
+<input type="date" name="dateNaissance">
+<br>
+<input type="range" name="niveau" min="1" max="10">
+<br>
+<input type="url" name="siteWeb" placeholder="URL du site
+web">
+<br>
+<button type="button" onclick="afficherInfos()">Afficher les
+informations</button>
+</form>
+<script>
+function afficherInfos() {
+// Accéder aux valeurs des différents types d'entrées
+const ageValue = window.document.monFormulaire.age.value;
+const dateNaissanceValue =
+window.document.monFormulaire.dateNaissance.value;
+const niveauValue =
+window.document.monFormulaire.niveau.value;
+const siteWebValue =
+window.document.monFormulaire.siteWeb.value;
+// Construire le message avec les valeurs saisies
+const message = `Âge : ${ageValue}\nDate de naissance :
+${dateNaissanceValue}\nNiveau : ${niveauValue}\nSite Web :
+${siteWebValue}`;
+// Afficher le résultat dans une boîte de dialogue
+"alert"
+alert(message);
+}
+</script>
+</body>

@@ -1,0 +1,7 @@
+<head>
+  <!-- Auteur de la page: D-CLIC -->
+  <meta name="author" content="D-CLIC">
+  <title>Ma page de test</title>
+  <!-- Lien vers une feuille de styles CSS  -->
+  <link rel="stylesheet" href="styles.css">
+</head>
